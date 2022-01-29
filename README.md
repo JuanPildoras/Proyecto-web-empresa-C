@@ -1,5 +1,5 @@
 # Proyecto-web-empresa-C
-esto es un proyecto de practica
+-esto es un proyecto de practica.
 
 
-estoy probando esta opcion
+-Este repositorio es únicamente de aprendizaje, el purista que le vea que abstenga a modificarlo:)
