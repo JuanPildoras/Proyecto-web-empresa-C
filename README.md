@@ -2,4 +2,5 @@
 -esto es un proyecto de practica.
 
 
--Este repositorio es únicamente de aprendizaje, el purista que le vea que abstenga a modificarlo:)
+----------------I M P O R T A N T E------------------------------------
+Este repositorio es únicamente de aprendizaje, que se abstengan los puristas a modificarlo:)
