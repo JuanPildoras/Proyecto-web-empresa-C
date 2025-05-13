@@ -1,3 +1,61 @@
-body{
-  background-color:yellow;
+@charset "UTF-8";
+
+
+/* ### GLOBAL ### */
+  * {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.2;
+  }
+   @font-face {  /*Ver h1.titulo */
+    font-family: KausanScript;
+    src: url( "../fonts/KaushanScript_Regular.ttf");
+  }
+  body{ /* ver tb menu.css */
+    background-image: url("../img/FondoSATAA-UPM.png") ;
+    background-attachment: fixed; 
+    background-position: center center; 
+    background-size: cover; background-repeat: no-repeat;
+    /* evita la selección de texto */
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+    max-width: 1366px;
+    margin: 0 auto;
+    padding-top: 1rem;
+
+  }
+  a {
+    color: var(--text-color-sataa); 
+  }
+  h1.titulo {
+    font-family: 'KausanScript';
+    font-size: 2em;
+    letter-spacing: 3px;
+    color: var(--text-color-sataa);
+    text-shadow: -2px -2px 5px #fff;
+    border-bottom: 1px solid #999;
+   
+    /* margin, padding (excepto -left, NO funcionan con d-inline (ver margin en menu.css "sticky02") */ 
+  }
+  h2.subtitulo {
+    font-family: 'KausanScript';
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    color: var(--text-color-sataa);
+    text-shadow: -2px -2px 5px #fff;
+    border-bottom: 1px solid #999;
+   
+    /* margin, padding (excepto -left, NO funcionan con d-inline (ver margin en menu.css "sticky02") */ 
+  }
+  p {
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 1.5rem;
+    margin-left: 1rem;
+  }
+  .codigo {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: gray;
   }
